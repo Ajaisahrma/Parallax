@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>prallex</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .parallex-section {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-shadow: 2px 2px 1px #000;
+      }
+      #section1 {
+        background-image: url(back.jpg);
+      }
+      #section2 {
+        background-image: url(back.jpg);
+      }
+      .content-section {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      .content-section p {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parallex-section" id="section1">
+      <h1>Welcome to our parallex Sites</h1>
+    </div>
+    <div class="content-section">
+      <p>This is a regular Content Section.</p>
+    </div>
+    <div class="parallex-section" id="section2">
+      <h1>Immursive Experience</h1>
+    </div>
+    <div class="content-section">
+      <p>More content can go here.</p>
+    </div>
+  </body>
+</html>
